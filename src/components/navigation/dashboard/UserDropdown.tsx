@@ -10,7 +10,7 @@ function UserDropdown() {
             <AvatarFallback>CN</AvatarFallback>
         </Avatar>
     </DropdownMenuTrigger>
-    <DropdownMenuContent className='mt-2'>
+    <DropdownMenuContent className='mt-2 mr-4'>
         <DropdownMenuLabel>My Account</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuItem>Profile</DropdownMenuItem>
