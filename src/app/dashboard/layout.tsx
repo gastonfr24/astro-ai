@@ -1,4 +1,4 @@
-import Navbar from "@/components/navigation/base/navbar";
+import Sidebar from "@/components/navigation/dashboard/sidebar";
 
 export default function RootLayout({
   children,
@@ -6,8 +6,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <section>
-        <Navbar/>
+    <section className="h-screen flex relative">
+        <Sidebar/>
         {children}
     </section>
   );
