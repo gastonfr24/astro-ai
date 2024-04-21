@@ -3,13 +3,14 @@ import MenuDesktop from './desktop/menu'
 import { Button } from '../../ui/button'
 import { appConfig } from '@/data/config'
 import Link from 'next/link'
+import MenuMobile from './mobile/menu'
 
 function navbar() {
   const isUser = true
 
   return (
     <nav className='fixed top-0 right-0 left-0 w-full bg-background/40 backdrop-blur-lg z-[100]
-    flex items-center justify-between px-6 py-4
+    flex items-center justify-between px-6 h-16
     '>
         <h1 className='text-lg text-semibold text-inherit w-full'>
         {appConfig.name}
@@ -27,6 +28,7 @@ function navbar() {
             <Button>Sign Up</Button>
             </>
           }
+          <MenuMobile/>
         </div>
     </nav>
   )

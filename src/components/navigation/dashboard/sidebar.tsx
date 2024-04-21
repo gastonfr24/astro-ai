@@ -29,7 +29,7 @@ const Sidebar = () => {
       <Button size='icon' variant='outline' className='hidden sm:flex absolute h-7 w-7 p-1 rounded-full right-0 top-[4.4rem] justify-center items-center translate-x-[50%]' onClick={toggleSidebarcollapse}>
         {isCollapsed ? <ChevronRight /> : <ChevronLeft />}
       </Button>
-      <aside className={ `absolute sm:static transition-all duration-[450ms] h-full bg-[#060606] p-1 ${isCollapsed ? 'w-0 sm:w-[4.5rem]':'w-[14rem]'}`}>
+      <aside className={ `absolute sm:static transition-all duration-[450ms] h-full bg-new-black p-1 ${isCollapsed ? 'w-0 sm:w-[4.5rem]':'w-[14rem]'}`}>
         <ul className={cn('text-white flex gap-y-2 flex-col items-start px-3 mt-28',
           isCollapsed && 'hidden sm:flex'
         )}>

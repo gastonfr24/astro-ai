@@ -12,7 +12,7 @@ import { useContext } from "react";
 function Navbar() {
   const { isCollapsed, toggleSidebarcollapse } = useContext(SidebarContext);
   return (
-    <nav className='w-full h-14 bg-[#060606] z-[9] absolute flex justify-between items-center'>
+    <nav className='w-full h-14 bg-new-black z-[9] absolute flex justify-between items-center'>
         <div className='w-[4.5rem] flex justify-center items-center'>
         <p className='text-2xl'>{appConfig.initials}</p>
         </div>
