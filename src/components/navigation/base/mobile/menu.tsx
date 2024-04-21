@@ -21,7 +21,7 @@ function MenuMobile() {
   <SheetContent className="mt-16 w-72">
     <SheetHeader>
       <SheetTitle className="justify-end flex">Pages</SheetTitle>
-      <SheetDescription>
+      <SheetDescription >
         <Button 
         variant='ghost'
         className="w-full justify-end">
