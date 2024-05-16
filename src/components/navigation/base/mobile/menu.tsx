@@ -18,7 +18,7 @@ function MenuMobile() {
     <Menu/>
   </Button>
   </SheetTrigger>
-  <SheetContent className="mt-16 w-72">
+  <SheetContent className="mt-16 w-72 bg-new-black border-0">
     <SheetHeader>
       <SheetTitle className="justify-end flex">Pages</SheetTitle>
       <SheetDescription >
